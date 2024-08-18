@@ -22,14 +22,6 @@
       icon: 'mdi-instagram',
       link: 'https://www.instagram.com/giislainebordinhon/',
     },
-    {
-      icon: 'mdi-facebook',
-      link: 'https://www.facebook.com/seu_usuario',
-    },
-    {
-      icon: 'mdi-twitter',
-      link: 'https://www.twitter.com/seu_usuario',
-    },
   ];
   </script>
   
