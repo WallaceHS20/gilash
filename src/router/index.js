@@ -1,4 +1,3 @@
-
 import { createRouter, createWebHistory } from 'vue-router/auto'
 import { setupLayouts } from 'virtual:generated-layouts'
 import { routes } from 'vue-router/auto-routes'
@@ -6,7 +5,6 @@ import { components } from 'vuetify/dist/vuetify-labs.js'
 
 import UserFormLayout from '@/layouts/UserFormLayout.vue'
 import HomeLayout from '@/layouts/HomeLayout.vue'
-
 
 const manualPages = [
   {
@@ -16,9 +14,8 @@ const manualPages = [
       {
         path: "",
         name: 'Login',
-        component: import('@/pages/User/LoginPage.vue')
+        component: () => import('@/pages/User/LoginPage.vue') // Corrigido
       }
-
     ]
   },
   {
@@ -28,9 +25,8 @@ const manualPages = [
       {
         path: "",
         name: 'Home',
-        component: import('@/pages/Home/HomePage.vue')
+        component: () => import('@/pages/Home/HomePage.vue') // Corrigido
       }
-
     ]
   },
 ]
