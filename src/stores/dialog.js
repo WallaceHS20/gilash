@@ -33,6 +33,7 @@ Gostaria de realizar um agendamento:
 - *Valor*: R$ ${ticket.manutencao? ticket.manutencaoValor : ticket.produtoValor}
 
 Endereço:
+
 - Rua São Jorge n° 200 / Santana (Rua da Feira)
 
 Muito obrigada!`;

@@ -65,7 +65,7 @@
                                       :rules="timeRules"
                                     ></v-text-field>
                                 </v-col>
-                                <v-checkbox
+                                <v-checkbox v-if="props.tickets.manutencao"
                                         label="Apenas Manutenção"
                                         type="checkbox"
                                         value="1"
@@ -76,7 +76,7 @@
                             </v-row>
                         </v-form>
 
-                        <div class="text-overline">💎 valor total</div>
+                        <div class="text-overline mt-1">💎 valor total</div>
 
                         <v-btn class="text-h6 font-weight-bold ms-n4" color="Rose01" variant="text">
                            R$ {{ formData.manutencao? props.tickets.manutencao : props.tickets.valor}}
