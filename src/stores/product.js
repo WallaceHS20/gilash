@@ -59,7 +59,7 @@ export const useProductStore = defineStore('product', {
         foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/GLOOSS_.jpg',
         nota: '4.0',
         valor: '49.00',
-        descricao: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/03.jpg',
+        descricao: 'Fique com os lábios mais jovens além efeito glossy, que deixa os lábios iluminados.',
         manutencao: '',
         maisVendido: false,
         story: ''
@@ -85,7 +85,7 @@ export const useProductStore = defineStore('product', {
       },
       {
         src: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/BACK03.jpg',
-        mensagem: 'O seu olhar merece o cuidado de uma especialista em cílios. Renove o seu poder.'
+        mensagem: 'Charme e estética perfeita que só lindos cílios conseguem expressar.'
       },
       {
         src: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/BACK04.jpg',

@@ -18,7 +18,7 @@
             class="align-end text-white"
             width="100%"
             height="600"
-            src="https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/ABOUT.PNG"
+            src="https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/gih.jpg"
             cover
         >
             <v-card-title>Gislaine Honorato</v-card-title>
