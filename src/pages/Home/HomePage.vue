@@ -11,6 +11,7 @@
       </v-col>
     </v-row>
   </v-container>
+  <GridImages/>
   <About/>
   
 </template>
@@ -20,6 +21,7 @@ import CardProduct from '@/components/CardProduct/CardProduct.vue';
 import Carrousel from '@/components/Carrousel/Carrousel.vue';
 import { useProductStore } from '@/stores/product';
 import About from '@/components/About/About.vue';
+import GridImages from '@/components/GridImages/GridImages.vue';
 
 const productStore = useProductStore()
 
