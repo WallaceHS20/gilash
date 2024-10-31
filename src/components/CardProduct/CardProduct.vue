@@ -43,9 +43,10 @@
             </v-card-actions>
         </v-card>
     </div>
-
 </template>
+
 <script setup>
+import { ref } from 'vue'
 import { defineProps } from 'vue'
 import Dialog from '@/components/Dialog/Dialog.vue';
 
@@ -53,13 +54,16 @@ const props = defineProps({
     cilios: Object
 })
 
-const loading = false
-const selection = 1
+// Use ref to make 'loading' reactive
+const loading = ref(false)
+const selection = ref(1)
 
 function reserve() {
-    loading = true
+    loading.value = true
 
-    setTimeout(() => (loading = false), 2000)
+    setTimeout(() => {
+        loading.value = false
+    }, 2000)
 }
 
 </script>
