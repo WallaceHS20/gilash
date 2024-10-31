@@ -1,7 +1,7 @@
 <template>
     <h1 class="title-grid">Venha renovar seu brilho</h1>
     <v-card
-      class="mx-auto"
+      class="mx-auto c-grid"
     >
       <v-container fluid>
         <v-row dense>
@@ -64,6 +64,11 @@
 .title-grid{
     padding: 10px;
     text-align: center;
+}
+
+.c-grid{
+    margin: 10px 0;
+    padding: 10px;
 }
 
 </style>
