@@ -5,8 +5,8 @@ export const useProductStore = defineStore('product', {
   state: () => ({
     cilios: [
       {
-        nome: 'Volume Egípcio',
-        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/8D.jpg',
+        nome: 'Volume 5D',
+        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/EGPC2.jpeg',
         nota: '5.0',
         valor: '138.00',
         descricao: 'Esse método proporciona um volume médio a intenso, criando um olhar marcante e glamoroso.',
@@ -15,11 +15,11 @@ export const useProductStore = defineStore('product', {
         story: ''
       },
       {
-        nome: 'Volume 3D',
+        nome: 'Volume Egípcio',
         foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/WhatsApp%20Image%202024-10-30%20at%2023.47.04.jpeg',
         nota: '5.0',
         valor: '125.00',
-        descricao: 'Um efeito de volume intenso e cheio. São ideais para quem busca um olhar marcante e dramático.',
+        descricao: 'Um efeito natural e delicado. São ideais para quem busca um olhar marcante e suave.',
         manutencao: '70.00',
         maisVendido: true,
         story: ''
