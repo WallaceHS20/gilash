@@ -5,32 +5,32 @@ export const useProductStore = defineStore('product', {
   state: () => ({
     cilios: [
       {
-        nome: 'Volume 8D',
-        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/02.jpg',
+        nome: 'Volume Egípcio',
+        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/8D.jpg',
         nota: '5.0',
-        valor: '145.00',
-        descricao: 'Um efeito de volume intenso e cheio. São ideais para quem busca um olhar marcante e dramático.',
+        valor: '138.00',
+        descricao: 'Esse método proporciona um volume médio a intenso, criando um olhar marcante e glamoroso.',
         manutencao: '85.00',
         maisVendido: true,
         story: ''
       },
       {
-        nome: 'Volume Egípcio',
-        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/8D.jpg',
+        nome: 'Volume 3D',
+        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/WhatsApp%20Image%202024-10-30%20at%2023.47.04.jpeg',
         nota: '5.0',
-        valor: '135.00',
-        descricao: 'Esse método proporciona um volume médio a intenso, criando um olhar marcante e glamoroso.',
-        manutencao: '75.00',
+        valor: '125.00',
+        descricao: 'Um efeito de volume intenso e cheio. São ideais para quem busca um olhar marcante e dramático.',
+        manutencao: '70.00',
         maisVendido: true,
         story: ''
       },
       {
         nome: 'Volume Brasileiro',
-        valor: '98.00',
+        valor: '110.00',
         foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/BRASILzzzzz.jpg',
         nota: '5.0',
         descricao: 'Cilíos um volume suave e natural, ideal para quem busca um olhar mais cheio, porém sem exageros.',
-        manutencao: '65.00',
+        manutencao: '75.00',
         maisVendido: true,
         story: ''
       },
@@ -95,7 +95,12 @@ export const useProductStore = defineStore('product', {
         src: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/BACK05.jpg',
         mensagem: 'Os cílios são a extensão do poder feminino. Cuide bem deles!'
       },
+      {
+        src: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/egpc.jpeg',
+        mensagem: 'Agende seu horário!'
+      },
     ],
+    
     phoneNumber: '5512996141491',
   }),
 

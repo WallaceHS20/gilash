@@ -34,7 +34,7 @@ Gostaria de realizar um agendamento:
 
 Endereço:
 
-- Rua São Jorge n° 200 / Santana (Rua da Feira)
+- Avenida princesa Isabel n° 1716 / Santana (Dentro da Loja Paty Decoração)
 
 Muito obrigada!`;
       
