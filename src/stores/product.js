@@ -16,11 +16,11 @@ export const useProductStore = defineStore('product', {
       },
       {
         nome: 'Volume Egípcio',
-        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/WhatsApp%20Image%202024-10-30%20at%2023.47.04.jpeg',
+        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/larissa.jpg',
         nota: '5.0',
         valor: '125.00',
         descricao: 'Um efeito natural e delicado. São ideais para quem busca um olhar marcante e suave.',
-        manutencao: '70.00',
+        manutencao: '80.00',
         maisVendido: true,
         story: ''
       },

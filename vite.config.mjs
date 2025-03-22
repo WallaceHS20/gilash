@@ -1,25 +1,24 @@
 // Plugins
-import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite'
-import Layouts from 'vite-plugin-vue-layouts'
-import Vue from '@vitejs/plugin-vue'
-import VueRouter from 'unplugin-vue-router/vite'
-import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+import AutoImport from 'unplugin-auto-import/vite';
+import Components from 'unplugin-vue-components/vite';
+import Layouts from 'vite-plugin-vue-layouts';
+import Vue from '@vitejs/plugin-vue';
+import VueRouter from 'unplugin-vue-router/vite';
+import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 import path from 'path';
 
-
 // Utilities
-import { defineConfig } from 'vite'
-import { fileURLToPath, URL } from 'node:url'
+import { defineConfig } from 'vite';
+import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  base: '/gilash/',
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/gilash/' : '/', // Define o base condicionalmente
   plugins: [
     VueRouter(),
     Layouts(),
     Vue({
-      template: { transformAssetUrls }
+      template: { transformAssetUrls },
     }),
 
     Vuetify({
@@ -40,7 +39,6 @@ export default defineConfig({
       },
       vueTemplate: true,
     }),
-
   ],
   define: { 'process.env': {} },
   resolve: {
@@ -60,4 +58,4 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-})
+}));

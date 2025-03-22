@@ -52,9 +52,9 @@
     export default {
       data: () => ({
         cards: [
-          { title: 'Avenida princesa Isabel n° 1716', src: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/local01.jpeg', flex: 12 },
-          { title: 'Dentro da Loja Paty Decoração', src: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/local02.jpeg', flex: 6 },
-          { title: 'Segunda a Sábado', src: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/WhatsApp%20Image%202024-10-31%20at%2000.12.07.jpeg', flex: 6 },
+          { title: 'Rua Manoel Rozendo de Oliveira n° 53', src: 'https://github.com/WallaceHS20/IMAGE-REPOSITORY/blob/main/gih2offcice.PNG?raw=true', flex: 12 },
+          { title: 'Próximo da Adonai Fitness', src: 'https://github.com/WallaceHS20/IMAGE-REPOSITORY/blob/main/gih1offcice.jpg?raw=true', flex: 6 },
+          { title: 'Segunda a Sábado', src: 'https://github.com/WallaceHS20/IMAGE-REPOSITORY/blob/main/gih3offcice.jpg?raw=true', flex: 6 },
         ],
       }),
     }

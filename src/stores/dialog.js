@@ -34,14 +34,14 @@ Gostaria de realizar um agendamento:
 
 Endereço:
 
-- Avenida princesa Isabel n° 1716 / Santana (Dentro da Loja Paty Decoração)
+- Rua Manoel Rozendo de Oliveira n° 53 / Alto da Ponte (Ao lado da Adonai Fitness)
 
 Muito obrigada!`;
       
-            const encodedMessage = encodeURIComponent(message); // Codifica a mensagem para URL
+            const encodedMessage = encodeURIComponent(message); 
             const whatsappUrl = `https://wa.me/${this.phoneNumber}?text=${encodedMessage}`;
       
-            window.open(whatsappUrl, '_blank'); // Abre o link em uma nova aba
+            window.open(whatsappUrl, '_blank'); 
           }
     }
 })
