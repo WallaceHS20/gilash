@@ -5,10 +5,10 @@ export const useProductStore = defineStore('product', {
   state: () => ({
     cilios: [
       {
-        nome: 'Volume 5D',
-        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/EGPC2.jpeg',
+        nome: 'Volume Luxo',
+        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/5e.jpg',
         nota: '5.0',
-        valor: '138.00',
+        valor: '140.00',
         descricao: 'Esse método proporciona um volume médio a intenso, criando um olhar marcante e glamoroso.',
         manutencao: '85.00',
         maisVendido: true,
@@ -16,7 +16,7 @@ export const useProductStore = defineStore('product', {
       },
       {
         nome: 'Volume Egípcio',
-        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/larissa.jpg',
+        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/01.PNG',
         nota: '5.0',
         valor: '125.00',
         descricao: 'Um efeito natural e delicado. São ideais para quem busca um olhar marcante e suave.',
@@ -27,18 +27,18 @@ export const useProductStore = defineStore('product', {
       {
         nome: 'Volume Brasileiro',
         valor: '110.00',
-        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/BRASILzzzzz.jpg',
+        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/4e.jpg',
         nota: '5.0',
         descricao: 'Cilíos um volume suave e natural, ideal para quem busca um olhar mais cheio, porém sem exageros.',
-        manutencao: '75.00',
+        manutencao: '80.00',
         maisVendido: true,
         story: ''
       },
       {
         nome: 'Lash Lifting',
-        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/lifting.jpg',
+        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/3e.jpg',
         nota: '4.0',
-        valor: '70.00',
+        valor: '80.00',
         descricao: 'Cílios de volume natural e curvado, alongando e dando volume de forma sutil.',
         manutencao: '',
         maisVendido: false,
@@ -51,6 +51,15 @@ export const useProductStore = defineStore('product', {
         valor: '69.00',
         descricao: 'Traga mais saúde para os seus lábios, revitalizando e hidratando de forma profunda.',
         manutencao: '',
+        maisVendido: false,
+        story: ''
+      },
+      {
+        nome: 'Micropigamentação Labial',
+        foto: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/1e.jpg',
+        nota: '5.0',
+        valor: '170.00',
+        descricao: 'Realce seus lábios com a Micropigmentação Labial, deixando seus lábios mais iluminados.',
         maisVendido: false,
         story: ''
       },
@@ -68,7 +77,7 @@ export const useProductStore = defineStore('product', {
 
     imagens: [
       {
-        src: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/main/01.PNG',
+        src: 'https://raw.githubusercontent.com/WallaceHS20/IMAGE-REPOSITORY/refs/heads/main/6e.jpg',
         mensagem: 'A extensão de cílios renova toda a sua beleza.'
       },
       {
